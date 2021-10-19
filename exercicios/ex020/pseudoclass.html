@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Classe</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(214, 214, 214);
+        }
+        #d1 {
+            display:inline-flexbox;
+            height: 40px;
+            width: 200px;
+            background-color: rgb(107, 221, 250);
+            border-radius: 5px;
+            
+            
+            text-align: center;
+            box-shadow: rgb(251, 255, 19) 1px 1px 2px;
+        }
+        #d2 {
+            display: inline-block;
+            height: 40px;
+            width: 200px;
+            background-color: rgb(107, 221, 250);
+            border-radius: 5px;
+            
+            text-align: center;
+            box-shadow: rgb(251, 255, 19) 1px 1px 2px;
+        }
+        #d3 {
+            display: inline-block;
+            height: 40px;
+            width: 200px;
+            background-color: rgb(107, 221, 250);
+            border-radius: 5px;
+            
+            text-align: center;
+            box-shadow: rgb(251, 255, 19) 1px 1px 2px;
+        }
+        #d1 > p {
+            display: none;
+        }
+        #d1:hover > p{
+            
+            display: block;
+            background-color: rgb(251, 255, 19);
+            padding: 10px;
+        }
+
+        div:hover {
+            background-color: rgb(166, 93, 250);
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="d1">
+        Menu
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic soluta culpa necessitatibus, possimus dignissimos iusto. Eaque quisquam labore itaque veniam temporibus qui non, vero, voluptatibus enim laborum illum hic officiis!
+        </p>
+    </div>
+    
+</body>
+</html>

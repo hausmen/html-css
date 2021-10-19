@@ -1,0 +1,134 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Shade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+
+
+body {
+    background-color: #DCE4F2;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+header {
+    background-color: #0051ff;
+    margin: 0;
+    padding: 20px;
+    padding-bottom: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.267);
+}
+h2, h1 {
+    font-family: Bungee Shade, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      
+}
+h2 {
+    background-image: linear-gradient(to left, rgb(246, 246, 246), rgba(99, 105, 98, 0.205));
+    height: 60px;
+    padding-left: 10px;
+    border-radius: 5px;
+    
+    
+}
+#title-principal {
+    margin: auto;
+    text-align: center;
+    color: rgb(229, 255, 79);
+    font-weight: bold;   
+}
+#slogan {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Special Elite, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+nav{
+    margin-top: 50px;
+    text-align: center;
+}
+nav > a {
+    
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 60px;
+    text-align: center;
+    color: white;
+    padding: 11px;
+    
+}
+nav >a:hover {
+    background-color: rgba(203, 233, 211, 0.287);
+    padding: 11px;
+    border-radius: 5px 5px 0px 0px;
+}
+main {
+    background-color: rgb(246, 246, 246);
+    width: 650px;
+    margin: auto;
+    padding: 30px;
+    padding-top: 5px;
+    box-shadow: 2px -1px 12px rgb(0 0 0 / 19%);
+}
+p{
+    text-align: justify;
+    text-indent: 30px;
+}
+
+#image-dandroids, #video {
+    width: 650px;
+}
+#irina {
+    width: 650px;
+}
+#bugdroid {
+    margin-left: 120px;
+}
+#list1, #list2 {
+    display: inline-block;
+    margin-right: 100px;
+}
+.destak-word {
+    color: #3a7404;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    font-weight: none;
+    color: darkgreen;
+}
+p > a::after {
+    content: ' \27A6';
+}
+a:hover {
+    background-color: rgb(255, 196, 0);
+}
+#back-video {
+    background-color:rgb(92, 92, 92);
+    width: 650px;
+    margin-left: -30px;
+    padding: 10px 30px;
+    box-shadow: inset -3px 0px 8px 0px black;
+}
+
+#ultimo {
+    background-color: rgb(255, 244, 146);
+    padding: 15px;
+    border-radius: 0px 0px 20px 20px;
+}
+#ultimo > h4 {
+    background-color: #0051ff;
+    padding: 15px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-family: Special Elite, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+footer {
+    background-color: #252525;
+    color: rgb(165, 165, 165);
+    padding: 3px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+
+}
